@@ -1,0 +1,15 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript", "prettier"],
+  "ignorePatterns": [
+    "**/node_modules/*",
+    "**/public/*",
+    "**/build/*",
+    "**/dist/*",
+    "**/.next/*"
+  ],
+  "rules": {
+    "indent": ["error", 2],
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"]
+  }
+}
