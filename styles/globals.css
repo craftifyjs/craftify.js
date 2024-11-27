@@ -85,6 +85,11 @@
     @apply border-border;
   }
 
+  html,
+  body {
+    @apply h-full w-full;
+  }
+
   body {
     @apply bg-background font-sans text-foreground antialiased;
   }
